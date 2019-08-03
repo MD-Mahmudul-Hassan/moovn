@@ -1,0 +1,59 @@
+Installation Guide for Site:
+----------------------------
+1.	Unzip the installation file package.
+2.	Rename htaccess.txt to .htaccess in the root folder. If the .htaccess already presents then overwrite the file.
+3.	Create database in server and import the files from the following path "db/"
+4.	After configuring the database settings in the server.
+5.	Change 777 permission to config-dectar folder.
+6.	Then open the website in the browser and enter the host name,port number, database user name, database password, database name respectively. 
+7.	then you need to enter admin login info, website name and domain url etc. 
+
+
+To set the 777 permission for following folder and all files inside it:
+--------------------------------------------------------------
+commonsettings
+config-dectar
+drivers_documents
+drivers_documents_temp
+uploaded
+newsletter
+images
+trip_invoice
+
+System requirement
+--------------------------
+PHP version 	5.5.19
+Web server(Apache) 2.4.10 
+MongoDB Version 	3.0.4
+
+The following services are enabled in server side
+------------------------------------------------------------
+curl
+php-mysql
+php-xml
+PEAR
+openssl
+openssl-devel
+gd library
+file_get_contents
+mod_rewrite
+file_uploads
+
+After installing the website you need to update the currency and country setting for the website, you can find it under the admin settings.
+
+Configuring the Xmpp Settings on our website
+---------------------------------------------------------
+You will need to configure the xmpp server settings on the below file path "xmpp-master/config.php".
+the following informations are needed to configure the xmpp server
+
+	1.	MySQL Database Name
+	2.	MySQL Host Name
+	3.	MySQL user Name
+	4.	MySQL Password
+	5.	Xmpp Host/IP
+	6.	Xmpp Service Name
+	7.	Xmpp Admin User Name (without service name)
+	8.	Xmpp Admin Password
+
+Thanks
+Cabily Team.

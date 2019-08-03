@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'AvantGardeBkBTBook';
+    src: url('avantgardebookbt.eot');
+    src: url('avantgardebookbt.eot') format('embedded-opentype'),
+         url('avantgardebookbt.woff') format('woff'),
+         url('avantgardebookbt.ttf') format('truetype'),
+         url('avantgardebookbt.svg#AvantGardeBkBTBook') format('svg');
+}

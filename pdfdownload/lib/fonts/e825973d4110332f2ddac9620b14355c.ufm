@@ -1,0 +1,26 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment http://php-font-lib.googlecode.com/
+EncodingScheme FontSpecific
+Copyright ©2010 Jay Paudyal, Rupee.im
+FontName IndianRupeeRegular
+FontSubfamily Regular
+UniqueID Indian Rupee - Regular
+FullName Indian Rupee Font
+Version Version 1.000
+PostScriptName IndianRupeeRegular
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 53
+UnderlinePosition -108
+FontHeightOffset 199
+Ascender 764
+Descender -236
+FontBBox -10 0 2081 729
+StartCharMetrics 7
+U 32 ; WX 293 ; N space ; G 3
+U 95 ; WX 605 ; N underscore ; G 4
+U 96 ; WX 720 ; N grave ; G 5
+EndCharMetrics
+EndFontMetrics

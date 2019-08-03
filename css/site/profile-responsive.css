@@ -1,0 +1,277 @@
+/** Responsive CSS **/
+
+/* ============================= 1199px ====================== */
+
+@media screen and (max-width: 1199px){
+.profile-sign-up a img {
+    width: 50%;
+}  
+.container-new,.container {
+    max-width: 100%; 
+}
+.profile_sign_up {
+    padding-top: 0 !important;
+    width: 100%;
+    float: left;
+}
+.payment_sign_up{
+        padding-top: 0 !important;
+}
+.sign_up2_btn a input {
+    width: auto !important;
+    padding: 15px 30px;
+    float: left;
+}
+.sign_up2_btn {
+    padding: 0;
+    float: left;
+}
+select#country_code {
+    margin-bottom: 15px;
+}
+div#change_mobile_number .col-lg-6 {
+    margin-left: 0 !important;
+}
+.profile_pic_rider img {
+    width: 40%;
+    height: 80px;
+}
+.profile-slide-menu,.recharge-money button,.current-balance .cur-bal{
+        width: auto;
+}
+.current-balance a h4 span{
+        margin: 0 5px;
+}
+.rider-info,.driver-info,section#cd-timeline{
+    text-align: center;
+}
+.rider-info,.driver-info,.cd-timeline-block{
+    width: 50%;
+    float: left;
+}
+.sign_up2_center p{
+        float: left;
+}
+
+}    
+
+@media screen and (min-width: 1024px) and (max-width: 1199px){
+
+.profile-slide-menu{
+    right: 45px;
+}
+.edit-rider{
+        width: 75%;
+}
+}
+
+/* ============================= 768px ====================== */
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+.profile-sign-up a img {
+    width: 65%;
+}
+.profile-slide-menu{
+    right: 20px;
+}
+.profile_rider_left {
+    width: 30%;
+    float: left;
+}
+.edit-rider,.profile_rider_right{
+    width: 70%;
+    float: left;
+}
+.edit-details{
+        width: 100%;
+}
+.rider_profile-tab>li > a {
+    font-size: 12px;
+    padding: 10px 0px;
+}
+.ride-date {
+    padding-left: 35px;
+    background-size: 25% !important;
+        background-position: left top !important;
+    float: left;
+    width: 30%;
+}
+.ride-place {
+    float: left;
+    width: 70%;
+}
+.recharge-money input{
+        width: 81%;
+}
+}
+
+
+/* ============================= 767px ====================== */
+@media screen and (max-width: 767px){
+.profile_rider_left {
+    border-left: 0;
+    border-right: 0;
+}
+.profile_pic_rider img {
+    width: 80px;
+    height: 80px;
+}
+.profile-detail-menu ul li a{
+        border-bottom: 0;
+            text-align: center;
+}
+.profile-detail-menu ul li:last-child a{
+    border-bottom: 1px solid #efefef;
+}
+.profile-sign-up a img {
+    width: 50px;
+}
+.profile-sign-up{
+    width: auto;
+}
+.profile-slide-menu{
+    right: 15px;
+}
+.edit-rider{
+        margin-top: 10px;
+}
+.profile_rider_left,.edit-rider,.edit-details{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.edit-details h3{
+    width: 100%;
+        margin-bottom: 10px;
+}
+.profile-image img{
+        display: block;
+    margin: 0 auto;
+}
+.sign_up_base input[type=file]{
+        width: auto;
+    display: inline-block;
+}
+.sign_up2_btn,.sign_up2_btn a input{
+        float: none;
+            display: inline-block;
+}
+.rider_profile-tab>li >a, ul.nav.nav-tabs.rider_profile-tab{
+        width: 100%;
+    float: left;
+}
+.rider_profile-tab>li > a {
+    font-size: 12px;
+    padding: 10px 0px;
+}
+.ride-date {
+    padding-left: 38px;
+    background-size: 25% !important;
+        background-position: left top !important;
+    float: left;
+    width: 30%;
+}
+.ride-place {
+    float: left;
+    width: 70%;
+}
+.recharge-money {
+    width: 100%;
+    float: left;
+    margin-top: 0;
+}
+.recharge-money input {
+    width: 78%;
+}
+.share-all {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.share_wrap li {
+    float: none;
+    display: inline-block;
+    padding: 0 5px;
+}
+.emergency-contact .input-group.col-lg-12 {
+    width: 100%;
+}
+.rider-pickup-detail {
+    text-align: center;
+}
+}
+
+/* ============================= 567px ====================== */
+
+@media screen and (min-width: 320px) and (max-width: 567px){
+.logo_sign_up{
+    width: 100%;
+    float: left;
+}
+.main-logo{
+        width: 60%;
+    float: left;
+}
+.profile-sign-up{
+        margin-top: 10px;
+}
+.profile-slide-menu {
+    right: 10px;
+    top: 94px;
+}
+.sign_up_base input[type=file] {
+    width: 100%;
+}
+.profile_rider_right, .rider-pickup-detail {
+    padding: 0;
+}
+.rider_profile-tab>li > a {
+    font-size: 10px;
+    padding: 10px 5px;
+    min-height: 50px;
+    margin: 0;
+}
+.rider_profile-tab li a:hover,.rider_profile-tab li a:focus{
+    background-color: transparent;
+    border: 0;
+}
+.ride-date {
+    width: 100%;
+    float: left;
+    padding: 20px 0 20px 65px;
+    background-size: 20% !important;
+}
+.ride-place,.recharge-money button{
+    width: 100%;
+}
+.recharge-money button{
+    font-size: 11.2px;
+        padding: 6px 2px;
+}
+ul.recharge-amt li a{
+        margin-right: 0;
+    margin: 5px 0;
+}
+.recharge-money input {
+    width: 100%;
+    height: auto;
+}
+.friend-earn p strong {
+    margin-left: 10px;
+}
+.share-all ul li a{
+        font-size: 11.7px;
+            padding-left: 30px !important;
+                background-size: 22px;
+}
+.rider-info,.driver-info,.cd-timeline-block{
+    width: 100%;
+}
+.cms_base_div h1 {
+    font: 20px 'Roboto-Bold';
+    margin-top: 10px;
+    width: 100%;
+    float: left;
+}
+}

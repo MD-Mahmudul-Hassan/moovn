@@ -1,0 +1,1 @@
+<?php $message .= 'test&nbsp;test&nbsp;test&nbsp;test';  ?>

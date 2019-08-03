@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Moovn</string>
+    <string name="hello_world">Get Moovn!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_registraion">Registration</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_signin">Login</string>
+    <string name="action_loading">Loading</string>
+    <string name="go_offline">Go Offline</string>
+    <string name="trip_summary">Trip Summary</string>
+    <string name="home">Home</string>
+    <string name="dialog_app_exit">Are you sure you want to logout</string>
+    <string name="dialog_app_exiting">Are you sure you want to Exit</string>
+    <string name="title_activity_driver_alert">Alert</string>
+    <string name="bank_account">Bank Account</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="no_trip_summary">Summary Not Available</string>
+    <string name="action_loading_error">Error</string>
+    <string name="action_loading_sucess">Success</string>
+    <string name="action_loading_cancel">Canceling</string>
+    <string name="action_loading_rating">Rating</string>
+    <string name="action_label_forgotpassword">Forgot Password ?</string>
+    <string name="action_label_forgotpassword_header">Forgot Password</string>
+    <string name="forgotpassword">Please enter the email address of your account</string>
+    <string name="action_label_changepassword">Change Password</string>
+    <string name="enteremail">Enter your email address</string>
+    <string name="forgotpasswordlink">Send me a password reset link</string>
+
+    <string name="action_label_currentpassword">Current Password</string>
+    <string name="action_label_newassword">New Password</string>
+    <string name="action_label_confirmnewpassword">Confirm new password</string>
+
+    <string name="action_label_signin">Sign In</string>
+    <string name="action_label_done">Done</string>
+
+    <!--Driver dashboard-->
+    <string name="lasttrip_label">Last Trip</string>
+    <string name="todayearnings_label">Today Earnings</string>
+    <string name="todaytips_label">Today Tips</string>
+    <string name="lasttrip_emtpy_label">No Trip</string>
+    <string name="todayearning_no_online_label">No Online</string>
+    <string name="todayearning_no_trips_label">No Trip</string>
+    <string name="todayearning_no_tips_label">No Tips</string>
+
+
+
+    <!--ALerts-->
+    <string name="cabily_driver_alert_lable_accept_Textview">ACCEPT</string>
+    <string name="cabily_driver_alet_lable_reject_Textview">DECLINE</string>
+    <string name="dialog_go_offline">Are you sure you want to go offline?</string>
+    <string name="dialog_go_yes">Yes</string>
+    <string name="dialog_go_no">No</string>
+    <string name="dialog_gooffline_title">Go Offline</string>
+    <string name="dialog_go_on_line">Are you sure you want to go online?</string>
+    <string name="alert_tape_toaccept">Tap to accept the ride</string>
+
+    <string name="alert_sorry_label_title">Sorry!</string>
+    <string name="alert_label_ok">OK</string>
+    <string name="alert_label_content1">We could not accept your request</string>
+    <string name="alert_label_content2">No vehicles are available at your location. Please try again later</string>
+    <string name="alert_enter_drop_location">Please enter dropoff location</string>
+    <string name="alert_nointernet">No Internet Connection</string>
+    <string name="alert_servererror">Server Error</string>
+    <string name="alert_gpsEnable">Enable GPS to determine your location</string>
+    <string name="alert_nocar">Sorry! We do not provide services in your area yet.</string>
+    <string name="lablesigningin_Textview">Signing In</string>
+    <string name="label_gps_textview">Location Services Disabled Please enable location services</string>
+
+    <string name="action_login_validate">Rating</string>
+    <string name="action_alert_header">Rating</string>
+    <string name="action_alert_invalid_email">Email address is invalid</string>
+    <string name="action_alert_invalid_password">Password is invalid</string>
+    <string name="action_alert_SigninFaild">Sign In Failed</string>
+    <string name="action_alert_multidevicelogin">Sorry</string>
+    <string name="action_alert_multideviceloginmsg">Already Logged in on another device </string>
+    <string name="action_alert_signinfaildmsg">Invalid username or  password </string>
+    <string name="action_alert_unabletocreatemap"> Sorry! System is unable to generate maps </string>
+
+    <string name="action_alert_bank_Username">Account Holder Name can\'t be empty</string>
+    <string name="action_alert_bank_accountno">Account Number can\'t be empty</string>
+    <string name="action_alert_bank_address">Address can\'t be empty</string>
+    <string name="action_alert_bank_name">Bank Name can\'t be empty</string>
+    <string name="action_alert_branch_name">Branch Name can\'t be empty </string>
+    <string name="action_alert_branch_address">Branch Address can\'t be empty </string>
+    <string name="action_alert_bank_ifs_code">IFSC code can\'t be empty</string>
+    <string name="action_alert_bank_routingno">Routing Number can\'t be empty</string>
+    <string name="action_alert_bankinfo_invails">Invalid Bank Details</string>
+    <string name="alertsaved_label_title">Successfully Saved</string>
+    <string name="drivernotlogged_label_title">Driver not Logged in</string>
+    <string name="waitfortransaction_label_title">Please wait until the transaction is complete</string>
+
+
+
+
+
+    <!--MainPage-->
+    <string name="cabily_driver_main_lable_signin_Textview">SIGN IN</string>
+    <string name="cabily_driver_main_lable_register_Textview">REGISTER</string>
+    <string name="cabily_driver_main_lable_tripsummery_Textview">Ride History</string>
+    <string name="cabily_driver_tip_amount">Your Tip Amount :</string>
+
+    <string name="cabily_wallet_used_label">Moovn Wallet Amount Used</string>
+
+
+
+
+
+    <!--accept-->
+    <string name="accept_total_bill_txtview">Total Bill:</string>
+    <string name="accept_total_paid_bill_txtview">Total Paid:</string>
+    <string name="accept_total_completed_txtview">Completed</string>
+    <string name="accept_total_paid_txtview">Amount Paid</string>
+    <string name="accept_total_rides">Rides</string>
+
+
+
+    <!-- My Profile layout -->
+    <string name="myprofile_label_firstname">First Name :</string>
+    <string name="myprofile_label_lastname">Last Name :</string>
+    <string name="myprofile_label_phone">Phone :</string>
+    <string name="myprofile_label_email">Email :</string>
+    <string name="myprofile_label_company">Company :</string>
+    <string name="myprofile_label_address1">Address 1 :</string>
+    <string name="myprofile_label_address2">Address 2 :</string>
+    <string name="myprofile_label_city">City :</string>
+    <string name="myprofile_label_country">Country :</string>
+    <string name="myprofile_label_state">State :</string>
+    <string name="myprofile_label_postcode">Postal Code :</string>
+    <string name="myprofile_label_save">SAVE</string>
+    <string name="myprofile_label_myprofile">My Profile</string>
+    <string name="myprofile_label_manditory">*</string>
+
+
+
+    <!--Bank-->
+    <string name="bank_lable_accountholder_name">Enter Account Holder Name</string>
+    <string name="bank_lable_accountholder_address">Enter Account Holder Address</string>
+    <string name="bank_lable_account_number">Enter Account Number</string>
+    <string name="bank_lable_bank_name">Enter Bank Name</string>
+    <string name="bank_lable_branch_name">Enter Branch Name</string>
+    <string name="bank_lable_branch_address">Enter Branch Address</string>
+    <string name="bank_lable_ifsc_code">Enter IFSC Code</string>
+    <string name="bank_lable_routing_number">Enter Routing Number</string>
+    <string name="bank_lable_bankdetails">Bank Account Number</string>
+
+    <!--Payment-->
+    <string name="paymnet_lable_payment_text">Payment:</string>
+    <string name="paymnet_lable_amount_text">Amount :</string>
+    <string name="paymnet_lable_receivddate_text">Received Date:</string>
+    <string name="payment_statment">Payment Statement</string>
+    <string name="payment_details">Payment Details</string>
+    <string name="payment_list_ridesid">Ride Id:</string>
+    <string name="payment_no_payments">No Payments Available</string>
+    <string name="payment_to">to</string>
+
+
+    <!--Tripsummary-->
+    <string name="fetchdatatoast">Unable to retrieve data from server</string>
+    <string name="tripsummery_details_list">Trip Summary Detail</string>
+    <string name="tripsummery_all_list">All</string>
+    <string name="tripsummery_onride_list">On Ride</string>
+    <string name="tripsummery_complete_list">Completed</string>
+    <string name="tripsummery_setail_cancel_label">Cancel Ride</string>
+    <string name="tripsummery_setail_continue_label">Continue Ride</string>
+    <string name="tripsummery_rideid_label">ID :</string>
+    <string name="tripsummery_add_Ride_label">Ride</string>
+    <string name="tripsummery_add_Payment_label">Payment</string>
+    <string name="tripsummery_add_km_label">km</string>
+    <string name="tripsummery_add_mins_label">mins</string>
+    <string name="tripsummery_waittime_label">wait time</string>
+    <string name="tripsummery_timetaken_label">time taken</string>
+    <string name="tripsummery_ridedistance_label">ride distance</string>
+    <string name="tripsummery_pickup_label">Pickup :</string>
+    <string name="tripsummery_drop_label">Drop :</string>
+    <string name="tripsummery_cancelreason_label">Reason for cancelation?</string>
+    <string name="tripsummery_noreason_label">No Reasons Available</string>
+    <string name="confirmdelete">Confirm Cancel</string>
+    <string name="surewanttodelete">Are you sure you want to cancel your ride?</string>
+    <string name="label_yes">YES</string>
+    <string name="label_no">NO</string>
+
+
+
+
+    <!--UserInfo-->
+    <string name="userinfo_cancel_label">Cancel Ride</string>
+    <string name="goonline_label">Go Online</string>
+
+    <!--Arrived-->
+    <string name="arrivedtrip_info_label">Info</string>
+    <string name="arrivedtrip_id_label">ID :</string>
+    <string name="arrivedtrip_arrivedtriptv_label">Slide to Arrive</string>
+    <string name="alert_canceld_label_title">Canceled</string>
+    <string name="alert_tripdetail_label_title">Ride Details</string>
+    <string name="alert_tripdetail_droplocation_label_title">Dropoff Location</string>
+    <string name="alert_tripdetail_select_droplocation_label_title">Select dropoff location</string>
+    <string name="alert_tripdetail_droptime_label_title">Dropoff Time</string>
+    <string name="alert_tripdetail_select_droptime_label_title">Select drop time</string>
+    <string name="alert_tripdetail_waitingtime_label_title">Waiting Time</string>
+    <string name="alert_tripdetail_ridedistance_label_title">Ride Distance</string>
+    <string name="alert_tripdetail_enterdistance_label_hint">Enter Distance(eg:25)</string>
+    <string name="alert_tripdetail_endtrip_label">Slide to End Trip</string>
+    <string name="arrived_alert_content1">Unable to contact rider. Please try again later</string>
+    <string name="voice_navigationlabel">Start Navigation</string>
+
+    <string name="voice_navigationlabel_continue">Please stop waiting time.</string>
+
+    <string name="bepatient">This process may take a few seconds. Please be patient.</string>
+    <string name="PaymentRequest">Your payment request has been sent to the customer.</string>
+    <string name="PleaseWait">Please wait...</string>
+    <string name="checkstatus">Check status</string>
+
+    <string name="please_collect_the_below_amount_from_the_customer">Please collect the amount below</string>
+    <string name="static_rupee">176</string>
+    <string name="rs_symbol">\u20B9</string>
+    <string name="dummy_amount">176</string>
+    <string name="title_activity_please_rate">Please Rate</string>
+    <string name="please_rate_the_customer">Please Rate the Customer. All fields are Mandatory</string>
+    <string name="label_behaviour">Behavior</string>
+    <string name="label_way_of_apporach">Courtesy</string>
+    <string name="label_rate_rider">Rate Rider</string>
+    <string name="label_cashreceived">Received</string>
+
+    <!-- Estimate Price Activity -->
+    <string name="estimate_price_label_search">Enter Place to Search</string>
+    <string name="estimate_price_label_place_notAvailable">No Search Results Found</string>
+    <string name="estimate_price_label_not_found">Rate Is Unavailable</string>
+
+    <!--Begin Trip-->
+    <string name="lbel_begintrip_label_cancel">Cancel</string>
+    <string name="lbel_begintrip">Slide to Begin Trip</string>
+    <string name="action_enter_drop_location">Enter drop location</string>
+    <string name="action_select_drop_location">Select drop location</string>
+    <string name="action_done">Done</string>
+
+
+    <!--EndTrip-->
+    <string name="lbel_endtrip">Slide to End Trip</string>
+    <string name="lbel_currentride">Current Ride</string>
+    <string name="lbel_wait">Start Wait Time</string>
+    <string name="lbel_stopwait">Stop Wait Time</string>
+    <string name="lbel_Note">Note:</string>
+    <string name="lbel_Note_Detail">Please make sure that dropoff time is atleast an hour before now and wait time is between pickup and dropoff time</string>
+
+
+    <!--FareSummery details-->
+    <string name="lbel_fare_summery_header">Fare Summary</string>
+    <string name="lbel_fare_summery_ride_distance">Ride Distance:</string>
+    <string name="lbel_fare_summery_timetaken">Time Taken:</string>
+    <string name="lbel_fare_summery_wait_time">Wait Time:</string>
+    <string name="lbel_fare_summery_requestpayment">Request Payment</string>
+    <string name="lbel_fare_summery_receive_cash">Receive Cash</string>
+
+
+    <!--Drop Location-->
+    <string name="droplocatoopn_label_search">Enter place to search</string>
+    <string name="droplocation_label_place_notAvailable">No search found</string>
+
+
+    <!--Receivecash-->
+    <string name="lbel_received_receive_cash">Received</string>
+    <string name="lbel_received_received_cash">RECEIVE CASH</string>
+
+    <!--Otp-->
+    <string name="lbel_otp">Verification Code</string>
+    <string name="lbel_otp_code">VERIFICATION CODE</string>
+    <string name="lbel_otp_code_confirm">Confirm</string>
+    <string name="lbel_otp_code_reive_check">PIN CODE NOT RECEIVED, PROCEED TO PAY</string>
+
+
+    <!--Alert-->
+    <string name="lbel_alert_inform">Moovn Technologies</string>
+    <string name="lbel_alert_inform2">Please visit our website to register. Thank you</string>
+    <string name="label_sure_go_offline">Are you sure you want go offline?</string>
+    <string name="label_pushnotification_canceled">Sorry</string>
+    <string name="label_pushnotification_ride_completed">Thanks</string>
+    <string name="label_pushnotification_cashreceived">Success</string>
+
+
+
+
+    <!--Reviwes-->
+    <string name="lbel_reviwe_header">Please Rate</string>
+    <string name="lbel_rating_details">Please rate the customer. All fields are mandatory</string>
+    <string name="lbel_reviwe_skip">Skip</string>
+    <string name="lbel_rate_rider">Rate Rider</string>
+    <string name="lbel_rate_nooptions">No Options Available</string>
+
+
+    <string name="lbel_notification">Message</string>
+    <string name="lbel_notification_ok">OK</string>
+    <string name="go_online_string">GO ONLINE</string>
+    <string name="not_available_text">Unavailable</string>
+    <string name="dialog_message">Alert</string>
+    <string name="dialog_alert_title">Alert</string>
+    <string name="lbel_notification_selectrating">Select your rating</string>
+
+
+    <string name="map_lable_available_status">You have a pending trip / transaction. Please tap to view. You will not receive ride requests until this issue is resolved</string>
+    <string name="map_lable_verify_status">Please verify the status of the driver from Admin Panel</string>
+
+
+    <!-- RIDE LATER Alert Dialog -->
+    <string name="alert_label_trip_title">Invalid  time</string>
+    <string name="alert_label_trip_content">Please make sure that dropoff time is atleast an hour before now</string>
+
+    <string name="action_session_expired_title">Session Expired</string>
+    <string name="action_session_expired_message">The same login is used in another device.</string>
+
+
+
+    <!--change Password-->
+    <string name="changepassword_currentpwd_label">current password can\'t be empty</string>
+    <string name="changepassword_newpwd_label">new password can\'t be empty</string>
+    <string name="changepassword_confirmpwd_label">confirm password can\'t be empty</string>
+    <string name="changepassword_lable_old_notmatch_edittext">Password should not match with Old Password</string>
+    <string name="changepassword_lable_confirm_notmatch_edittext">Password should match the New Password</string>
+
+    <!--Begin Trip-->
+
+    <string name="begintrip_enterdrop_location_label">enter drop location</string>
+    <string name="alert_label_title">Alert</string>
+
+    <string name="alert_multiple_login">Signed Out on all other devices</string>
+
+
+
+
+
+
+    <!--ads_page-->
+    <string name="ads_name">Your name</string>
+
+
+    <!--backarrow_with_text_header-->
+    <string name="new_text">New Text</string>
+
+
+    <!--Bank_account-->
+    <string name="accoount_holder_name">Account Holder Name</string>
+    <string name="account_holder_name_hint">Name</string>
+    <string name="account_holder_address">Account Holder Address</string>
+    <string name="acccount_holder_address_hint">Address</string>
+    <string name="account_number">Account Number</string>
+    <string name="account_number_hint">Account Number</string>
+    <string name="account_bank_name">Bank Name</string>
+    <string name="account_bank_name_hint">Bank Name</string>
+    <string name="account_branch_name">Branch Name</string>
+    <string name="account_branch_name_hint">Branch Name</string>
+    <string name="account_branch_address">Branch Address</string>
+    <string name="account_branch_address_hint">Branch Address</string>
+    <string name="account_swift_ifsc_code">SWIFT/IFSC Code</string>
+    <string name="account_swift_ifsc_code_hint">IFSC Code</string>
+    <string name="account_rounting_number">Routing Number</string>
+    <string name="account_rounting_number_hint">Routing Number</string>
+    <string name="account_save">SAVE</string>
+
+    <!--cancelreson_single-->
+    <string name="cancelreson_single_New_text">New Text</string>
+
+    <!--common_header-->
+    <string name="common_header_newtext">New Text</string>
+    <string name="Enter_OTP">OTP Invalid</string>
+    <!--driver_alert-->
+    <string name="driver_alert_pickup_request">PICKUP REQUEST</string>
+
+    <!--driver_dash_board-->
+    <string name="driver_dash_board_net_earnings">Net Earnings</string>
+    <string name="driver_dash_board_estimatednet">Estimated Net</string>
+    <string name="driver_dash_board_estimatednet_tips">Tips</string>
+    <string name="driver_dash_board_estimatednet_trips">Trips</string>
+
+    <!--drop_loaction-->
+    <string name="drop_loaction_nointernet">No Internet Connection</string>
+
+    <!--end_trip_details-->
+    <string name="end_trip_details_hours">Hours</string>
+    <string name="end_trip_details_min">Minutes</string>
+
+
+    <!--fare_summary-->
+    <string name="fare_summary_txt">Fare Summary</string>
+    <string name="fare_summary_newtext">New Text</string>
+    <string name="fare_summary_ride_distance">Ride Distance:</string>
+    <string name="fare_summary_ride_distance_time_taken">Time Taken:</string>
+    <string name="fare_summary_ride_waittime">Wait Time:</string>
+    <string name="fare_summary_ride_request_payment">Request Payment</string>
+    <string name="fare_summary_ride_receive_cash">Receive Cash</string>
+
+    <!--otp_page-->
+    <string name="otp_page_msg">Please enter the verification code sent to the rider</string>
+
+    <!--place_search-->
+    <string name="place_search_no_net">No Internet Connection</string>
+
+    <!--receive_cash-->
+    <string name="receive_cash_msg">Please collect this amount from the customer:</string>
+
+
+    <!--rating_page-->
+    <string name="rating_page_behaviour">Behavior</string>
+
+
+    <!--signin-->
+    <string name="signin_hint">Email Address</string>
+    <string name="signin_pwd">Password</string>
+
+
+    <!--user_details-->
+    <string name="user_details_cancel_trip">Cancel Trip</string>
+
+    <!--service_request_alert-->
+    <string name="service_request_net_slow_alert">Network connection is slow. Please try again</string>
+    <string name="service_request_auth_failure">Authentication Failure Error</string>
+    <string name="service_request_server_error">Server Error</string>
+    <string name="service_request_network_error">Network Error</string>
+    <string name="service_request_parseerror">Parse Error</string>
+
+
+    <!--navigation drawer-->
+    <string name="navigation_drawer_ok">OK</string>
+    <string name="navigation_drawer_cancel">CANCEL</string>
+
+    <!--change language-->
+    <string name="change_language_setttings">Change Language</string>
+    <string name="profile_lable_language">Language</string>
+    <string name="profile_lable_language_change">Change</string>
+    <string name="change_language_title">Select Language</string>
+
+
+
+    <!--navc drawer strings-->
+    <string name="navgation_drawer_home">Home</string>
+    <string name="navgation_drawer_bank_account">Bank Account</string>
+    <string name="navgation_drawer_payment_details">Payment Details</string>
+    <string name="navgation_drawer_change_pwd">Change Password</string>
+    <string name="navgation_drawer_change_language">Change Language</string>
+    <string name="navgation_drawer_logout">Logout</string>
+
+
+    <!--End trip toast-->
+    <string name="end_trip_toast_loaction_enable">Location enabled!</string>
+
+
+    <!--end trip enter details toast-->
+    <string name="end_trip_enter_deatis_toast_cancel">Canceled</string>
+
+
+    <!--dashborads text-->
+
+
+
+</resources>

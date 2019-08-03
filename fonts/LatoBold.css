@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'LatoBold';
+    src: url('fonts/LatoBold.eot');
+    src: url('fonts/LatoBold.eot') format('embedded-opentype'),
+         url('fonts/LatoBold.woff2') format('woff2'),
+         url('fonts/LatoBold.woff') format('woff'),
+         url('fonts/LatoBold.ttf') format('truetype'),
+         url('fonts/LatoBold.svg#LatoBold') format('svg');
+}

@@ -1,0 +1,1 @@
+INFO: Trying ssl://gateway.push.apple.com:2195...INFO: Connected to ssl://gateway.push.apple.com:2195.INFO: Sending messages queue, run #1: 1 message(s) left in queue.STATUS: Sending message ID 1 [custom identifier: Message-Badge-1] (1/3): 400 bytes.INFO: Disconnected.

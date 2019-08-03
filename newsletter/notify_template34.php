@@ -1,0 +1,1 @@
+<?php $message .= 'Hello Partners, Moovn will be having Corporate on-demand rides on Thursday and Friday. Please if you are out and about keep your app ON LINE. The rides will be originating in the Downtown, Elliot and Lower Queen Anne areas. Thank you Partners.';  ?>

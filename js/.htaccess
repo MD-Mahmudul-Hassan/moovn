@@ -1,0 +1,4 @@
+RewriteEngine on
+#RewriteBase /fancyclone/
+#RewriteCond $1 !^(index\.php|images|robots\.txt)
+#RewriteRule ^(.*)$ /fancyclone/index.php/$1 [L]

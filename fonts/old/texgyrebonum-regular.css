@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'TeXGyreBonumRegular';
+    src: url('texgyrebonum-regular.eot');
+    src: url('texgyrebonum-regular.eot') format('embedded-opentype'),
+         url('texgyrebonum-regular.woff2') format('woff2'),
+         url('texgyrebonum-regular.woff') format('woff'),
+         url('texgyrebonum-regular.ttf') format('truetype'),
+         url('texgyrebonum-regular.svg#TeXGyreBonumRegular') format('svg');
+}

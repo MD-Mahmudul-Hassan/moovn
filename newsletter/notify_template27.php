@@ -1,0 +1,1 @@
+<?php $message .= 'Hello! Moovn has been featured on several local media outlets again! The Mariners are in town all week playing Toronto; so many Canadians will be traveling to Seattle for the games. We expect a great weekend of business for you. Let\'s pick them up and drop them off. Thank you for being a Moovn Partner. -Moovn Partner Support';  ?>

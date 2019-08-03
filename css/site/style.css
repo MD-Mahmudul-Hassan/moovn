@@ -1,0 +1,618 @@
+/*
+        COLORS
+ 
+        Dark Blue 		#222438
+        Medium Blue		#69697A
+        Light Blue	 	#C5C3DE
+        Yellow			#FFB000
+        Red				#D92B00
+        
+*/
+
+
+.simple-demo, .mobile-demo {
+    visibility: visible;
+}
+
+.simple-demo #content-wrapper {
+    height: 1600px;
+    padding-top: 400px;
+}
+
+
+
+figcaption { text-shadow: 0 2px 1px #000; color: #C5C3DE; }
+
+ul { list-style: none; }
+.download { padding: 10px; }
+
+pre { font-size: 15px; }
+code { font-style: normal; }
+blockquote {
+    text-align: left;
+    width: 720px;
+    margin: 10px auto;
+    background: #C5C3DE;
+    border: solid 2px #69697A;
+    padding: 0 40px;
+}
+
+#console {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 15px;
+    width: 500px;
+    margin: 0;
+    font-size: 14px;
+    font-style: italic;
+    background-color: #69697A;
+    text-shadow: none;
+    text-align: left;
+    padding: 3px 10px;
+    border-radius: 0 0 10px 10px;
+    z-index: 99;
+    opacity: .8;
+}
+
+#title {
+    overflow: hidden;
+    font-size: 180px;
+    margin: 0 auto -580px;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    padding-top: 30px;
+    z-index: 99;
+}
+
+.title-line { position: relative; display: block; margin: auto; width: 300%; left: -100%; }
+#title-line2 { top: -60px; }
+#title-line3 { top: -120px; }
+.title-line span { display: inline-block; line-height: 1.1; position: relative; }
+.twitter-follow-button { position: relative; top: 8px; left: 4px; }
+#title-info { position: relative; z-index:99998; margin-top: 40px; opacity: 0; }
+
+.credit {
+    font-size: 20px;
+    margin: 10px auto;
+    text-align: center;
+    font-style: italic;
+    color: #69697A;
+    z-index:100;
+}
+
+#download {
+    position: relative;
+    margin: 50px auto;
+    font-size: 18px;
+    width: 100%;
+    line-height: 1.8;
+    z-index: 99999;
+}
+#hire { margin-bottom: 80px; }
+
+#download a { color: #69697A; border-bottom: none; text-decoration: underline; }
+
+#examples-1 { overflow: hidden; }
+#fly-it { position: relative; }
+#scale-it { width: 500%; margin: 0px -200%; padding: 0; }
+
+#examples-pin { position: relative; width: 100%; height: 600px; overflow: hidden; margin-bottom: -200px; }
+.pin-frame { position: absolute; width: 100%; height: 100%; overflow: hidden; }
+.pin-frame h2 { margin-top: 120px; }
+#pin-frame-slide { background: #D92B00; margin-left:-100%; }
+#pin-frame-wipe  { background: #FFB000; top:100%; }
+#pin-frame-wipe h2  { color: #D92B00; }
+#pin-frame-bounce  { background: #222438; }
+#pin-frame-color  { background: #222438; }
+#pin-frame-unpin  { top:100%; }
+
+#examples-2 { z-index: 9999; width: 100%; height: 100%; overflow: hidden; }
+#fling-it, #move-it { position: relative; }
+#examples-parallax {
+    padding-top: 200px;
+    height: 800px;
+    margin-bottom: -600px;
+    overflow: hidden;
+}
+#parallax-it {
+    padding: 0;
+    font-size: 80px;
+    position: relative;
+}
+
+#parallax-it-left {
+    position: relative;
+    font-size: 120px;
+    left: -160px;
+    color: #C5C3DE;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    filter:alpha(opacity=5);
+    overflow: hidden;
+}
+
+#parallax-it-right {
+    position: relative;
+    font-size: 160px;
+    left: 80px;
+    color: #C5C3DE;
+    opacity: 0.25;
+    -moz-opacity: 0.25;
+    filter:alpha(opacity=2.5);
+    overflow: hidden;
+    width: 900px;
+}
+
+#showcase { padding: 60px 0; }
+.gallery { width: 960px; margin: 0 auto; text-align: center; }
+.gallery figure { text-align: center; float: left; margin: 10px; height: 270px; display: inline-block; }
+
+#howtouse { padding-top: 200px; }
+
+.divider { font-size: 14px; padding-top: 20px; }
+
+.disclaimer {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: normal;
+    margin: 0 auto;
+}
+
+#instructions { padding-top: 40px; }
+
+#instructions p { margin: 0px auto 20px; }
+
+#instructions-animation { padding-top: 40px; }
+
+#instructions .documentation {
+    font-size: 16px;
+    text-align: left;
+    width: 720px;
+    margin: 10px auto 30px;
+    padding: 20px 40px;
+    text-shadow: none;
+    border: solid 1px #69697A;
+    color:#C5C3DE;
+}
+
+#instructions .param-list {
+    font-size: 18px;
+    line-height: 1.4;
+    padding: 0 18px;
+    margin: 1em 0 0;
+}
+
+#instructions .param-list-sub {
+    padding-left: 36px;
+    font-size: 15px;
+}
+
+#instructions .param-list li {
+    font-weight: normal;
+    padding-bottom: 20px;
+    text-shadow: 0 2px 1px #000;
+}
+.param {
+    font-style:italic;
+}
+
+.param-list small {
+    display: block;
+    font-weight: normal;
+    font-style: italic;
+}
+
+#credits { 
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 80px 0; 
+}
+
+/* mobile demo */
+
+.mobile-demo #fade-it {
+    margin: 400px 0 500px 0;
+}
+.mobile-demo #examples-1 {
+    margin-bottom: 200px;
+}
+.mobile-demo #instructions {
+    width: 800px;
+    text-align: left;
+    margin: auto;
+}
+.mobile-demo ul {
+    list-style: disc;
+    color:#FFFFFF;
+    margin: 20px 80px 100px 80px;
+}
+.mobile-demo #content-wrapper {
+    margin-bottom: 100px;
+    width: 100%;
+}
+.mobile-demo h2 {
+    width: 90%;
+}
+.mobile-demo h3 {
+    color:#C5C3DE;
+}
+
+#newversion {
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    margin-left: 250px;
+    z-index: 100;
+    background-color: #D92B00;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    box-shadow: 0 2px 1px #000;
+}
+#newversion h2 {
+    font-size: 43px;
+    margin: 0;
+    padding: 30px 0px 0px 0px;
+    color: #FFFFFF;
+    font-style: normal;
+}
+#newversion a {
+    text-decoration: none;
+    padding: 0px 20px 20px 20px;
+    display: block;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+#newversion a:hover span {
+    text-decoration: underline;
+}
+
+.cms_contact_form ul li{
+    margin: 10px !important;
+}
+.cms_contact_form ul li label{
+    margin-bottom: 10px !important;
+}
+
+/*  For Rider Social Signup*/
+
+.sig_up_fb1,.sig_up_fb2{
+	margin-top:20px;
+}
+.sig_up_fb1 .popup_facebook
+{
+	padding: 0 28px 7px 60px;
+	font-size:12px;
+	font-weight:900;
+}
+.sig_up_fb2 .popup_google
+{
+	background: #ff6a6f url("../../images/fb11.png") no-repeat scroll 14px 6px;
+    font-size: 12px;
+    padding: 15px 0 15px 56px;
+    width: 100%;
+	font-weight:900;
+}
+.padd_fb_base
+{
+	padding: 0 8px;
+}
+
+.popup_google {
+    background: #ff6a6f url("../../images/fb11.png") no-repeat scroll 25px 6px;
+    border: 1px solid #c4c4c4;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: opensansbold;
+    font-size: 14px;
+    padding: 8px 0;
+    width: 69%;
+}
+.popup_facebook {
+    background: rgba(0, 0, 0, 0) url("../../images/facebook12.png") no-repeat scroll 0 0;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold !important;
+    line-height: 37px;
+    margin: 0;
+    padding: 0 35px 0 80px;
+    text-indent: initial;
+}
+
+
+/*  For Rider Social Login*/
+.new_homepage_login 
+{
+text-align:center;
+}
+.login_form_home_page li a
+{
+color:#fff;
+text-transform:uppercase;
+}
+.login_form_home_page li a:hover
+{
+text-decoration:none;
+}
+.new_homepage_login.define {
+    display: inline-block;
+    margin-top: 14px;
+    text-align: center;
+    width: 100%;
+}
+.new_homepage_login.edit {
+    display: inline-block;
+    width: 49%;
+	padding: 10px 3px;
+}
+.new_homepage_login.edit .popup_facebook
+{
+	   padding: 0 35px 0 41px;
+	   font-size: 10px;
+	   font-weight: 900;
+}
+.new_homepage_login.edit .popup_google
+{
+	background-position:12px center;
+	font-size: 10px;
+    font-weight: 900;
+    padding: 12px;
+}
+.login_form_home_page.home_page_login.define_y
+{
+	width:100%;
+}
+.social_icons img
+{
+	  width: 25px;
+}
+/*** BOOKING CUSTOMIZATION **/
+.booking_ride_new_form
+{
+padding:10px 0px;
+/*box-shadow:0px 1px 4px 3px #ddd;*/
+margin:30px 0px !important;
+min-height:300px !important;
+}
+.booking_ride_new_form li
+{
+padding:0px !important;
+margin:0px !important;
+}
+.booking_ride_new_form li a
+{
+border:1px solid #fff !important;
+background:#090909;
+color:#fff !important;
+text-align:center;
+}
+.booking_ride_new_form li a:hover
+{
+background:#FFB800 !important;
+}
+.booking_ride_new_form li.active> a
+{
+background:#FFB800 !important;
+}
+
+.bexti_pickup_address
+{
+padding:8px;
+margin:10px 0px;
+border-radius:5px;
+border:1px solid #ddd;
+background:url('../../images/map.png') no-repeat 10px;
+padding-left:40px !important;
+}
+
+.bexti_pickup_address_desti
+{
+padding:8px;
+margin:10px 0px;
+border-radius:5px;
+border:1px solid #ddd;
+background:url('../../images/calendar_new.png') no-repeat 10px;
+padding-left:40px !important;
+}
+
+.bexti_pickup_address_select
+{
+padding:8px;
+margin:10px 0px;
+border-radius:5px;
+border:1px solid #ddd;
+background:url('../../images/car.png') no-repeat 10px;
+padding-left:40px !important;
+}
+.pickup_address_form
+{
+width:80%;
+margin:0px auto;
+}
+.way, .rental
+{
+width:48%;
+padding:10px;
+border:0px !important;
+color:#000 ;
+}
+
+.destination_page button:hover
+{
+background:url('../../images/tick_new.png') no-repeat 150px center #0D0D0D !important;
+color: #fff !important;
+}
+.bexti_pickup_address::-webkit-input-placeholder
+{
+  color:    #ddd !important;
+}
+.bexti_pickup_address_desti::-webkit-input-placeholder
+{
+  color:    #ddd !important;
+}
+.destination_search_btn
+{
+background:#0D0D0D !important;
+padding:10px;
+border:0px !important;
+color:#fff;
+}
+.input-group-addon
+{
+     padding:0 !important;
+     font-size: 14px; 
+     font-weight: 400; 
+     line-height: 1; 
+     color: #555; 
+     text-align: center;
+    background: none !important; 
+     border:0px !important; 
+     border-radius: 0px !important;
+	 width:0% !important;
+}
+.input-group .glyphicon-calendar
+{
+position:absolute !important;
+top:20px !important;
+left:20px !important;
+padding:0px !important;
+color:#fff !important;
+}
+
+.profile_rider
+{
+padding:10px 0px 30px;
+}
+.bexti_sign_up_new, .sign_up_acc
+{
+float:none !important;
+}
+.bexti_input_group
+{
+background:#ddd;
+border:1px solid #ccc;
+}
+.new_emer_select
+{
+    margin: 0px 0px 0px 10px;
+    width: 90% !important;
+}
+.bexti_new_have_ques
+{
+float:none !important;
+}
+
+.bexti_wallet_payment
+{
+padding:15px 0px;
+}
+
+.bexti_wallet_btn {
+    background: #0D0D0D !important;
+    padding: 10px;
+    border: 0px !important;
+    color: #fff !important;
+	border-radius:0px !important;
+}
+
+.menu li a:hover
+{
+color:#ffb800;
+}
+.menu li .active
+{
+color:#ffb800;
+}
+
+.other_cities_center
+{
+float:none !important;
+}
+.other_cities_center .sign_logo
+{
+float:none !important;
+}
+
+
+/**************28.12.15***************************/
+.way
+{
+background:url('../../images/tick_new.png') no-repeat 150px center #43ECEC !important;
+}
+.sig_up_fb1 .popup_facebook
+{
+	padding: 0 28px 0 60px;
+	font-size:12px;
+}
+.sig_up_fb2 .popup_google
+{
+	background: #ff6a6f url("../../images/fb11.png") no-repeat scroll 14px 6px;
+    
+  
+    
+    font-size: 12px;
+    padding: 12px 0 12px 56px;
+    width: 100%;
+}
+.padd_fb_base
+{
+	padding: 0 8px;
+}
+
+
+#booking_form input::-moz-placeholder {
+color: #333;
+}
+#booking_form input::-webkit-placeholder {
+color: #333;
+}
+/*------------------29-09-2016---------------*/
+.no_padding_no
+{
+padding:0px;
+}
+
+#coupon_code.otlcab_coupon_code
+{
+padding:6px 10px;
+border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.destination_search_btn 
+{
+margin: 15px 0px 0px;
+}
+
+#coupon_code_but.coupon_code_but
+{
+background:#1FBAD6;
+color:#fff;
+padding:8px 5px;
+border:0px;
+}
+
+.new_booking_sub_btn
+{
+padding:20px 40px !important;
+}
+
+#coupon_codeErr
+{
+    color:#f00;
+    margin: 5px 0px 0px;
+    float: left;
+}
+
+#coupon_codeErr .sucess_coupon_code
+{
+color:green;
+}
+
+/*** BOOKING CUSTOMIZATION **/

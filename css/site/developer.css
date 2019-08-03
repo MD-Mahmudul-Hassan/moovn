@@ -1,0 +1,298 @@
+#message-red {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    height: 36px;
+    padding: 4px;
+    text-align: center;
+}
+
+#message-green {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    height: 36px;
+    padding: 4px;
+    text-align: center;
+}
+
+.vehicle-inner {
+    display: inline-block;
+    float: none;
+    width: 30%;
+}
+
+.error {
+    color: #f00;
+    font-size: 12px !important;
+    font-weight: normal;
+}
+.error {
+    background-color: #faf4f4;
+}
+
+label.error {
+    background: url("../../images/alert.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    color: #de5130;
+    display: inline-block;
+    font-size: 11px;
+  /*   height: 23px; */
+    margin: 0;
+    padding-left: 23px;
+    padding-top: 0;
+}
+
+.container-new.cms-container li {
+    list-style: inherit !important;
+}
+
+/**        popup    ****/
+
+.dev-popup-favlocation {
+    border: 1px solid #e5e5e5;
+    margin-top: 20px;
+}
+
+.dev-popup-favlocation > h2 {
+    background-color: #000;
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.blue-btn {
+   background-color: #28cbf9;
+    border: 1px solid #28cbf9;
+    color: #fff;
+    float: right;
+    font-family: "RobotoMedium";
+    font-size: 15px;
+    padding: 10px 15px;
+}
+
+.em-confirm-container {
+	text-align:center; 
+	margin-top:2%;
+}
+
+.em-confirm-container input {
+    height: 40px;
+    margin: 1%;
+    width: 48%;
+}
+
+.vsuccess {
+	color:green;
+}
+
+.v-innerBox input {
+	float: none;
+}
+
+.ev-title {
+	background-color: #e6e6e6;
+    border: 1px solid grey;
+}
+
+.c-inactive {
+    background: url("../../images/inactive-icon.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.c-active {
+    background: url("../../images/active-icon.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.emergency-contact input{
+	height: 49px !important;
+}
+.element-group {
+    width: 14% !important;
+	height: 49px;
+}
+
+#em_contact_form > p {
+    margin: 6px;
+}
+
+.emergency-alarm {
+	float: right;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-top: -20px;
+    width: 8%;
+}
+
+.txt-error {
+    background: none repeat scroll 0 0 rgba(253, 28, 10, 0.19) !important;
+    border: 1px solid red !important;
+}
+.input-scroll-3 {
+    background: url("images/credit_card.png") no-repeat scroll right 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    color: #333;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    width: 100%;
+}
+
+.wallet_pay_notification {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.wallet_pay_notification > h1 {
+    margin: 2%;
+}
+
+.wallet_pay_notification > h1 > span {
+    color: red;
+}
+
+.pay-instructions {
+    border: 1px solid #efefef;
+	border-radius: 5px;
+    line-height: 2;
+    margin: 10% 0 0 8%;
+	padding: 3%;
+	text-align:center;
+}
+
+.pay-instructions  span{
+	color:#9f9f9f;
+}
+
+.sign_up_base .phoneCode {
+	width: 20%;
+    display: inline-block !important;
+}
+
+.sign_up_base .phoneNumbers {
+	width: 50%;
+    display: inline-block !important;
+}
+
+.sign_up_base .mob_otp {
+	width: 70%;
+    display: inline-block !important;
+}
+
+.sign_up_base .mob_resend_otp {
+	width: 27% !important;
+    display: inline-block !important;
+	margin: 0 !important;
+	border-radius: 4px !important;
+	padding: 12px 0 !important;
+}
+
+.otp_container {
+	display:none;
+}
+
+#sms_loader {
+	display:none;
+}
+.fav-location-title {
+	background: #f0f0f0 none repeat scroll 0 0;
+}
+
+.fav-location-title .col-md-12 {
+	margin-top:2%;
+}
+
+.fav-location-title h3{
+	color: black;
+    font-weight: bolder;
+}
+
+.fav_locations p {
+    color: #28cbf9;
+    font-family: "Roboto-Regular";
+    font-size: 14px;
+}
+
+.make-unfav {
+	width:25px;
+	margin-left:10px;
+}
+.confirm-title {
+	color: red;
+}
+.modal-title {
+	font-weight:bold;
+}
+
+.favErr {
+    display: none; 
+    margin-top: 10px;
+    float: left;
+}
+
+.modal-footer , .modal-header {
+	background: #f4f4f4 none repeat scroll 0 0;
+}
+.favourite_container {
+	margin-top:30%;
+}
+
+#edit_mobile
+{
+background:#A4C639;
+color:#fff;
+padding:5px 15px;
+margin:0px 5px;
+    border-radius: 4px;
+}
+
+#cancel_otp
+{
+background:#C51A21;
+color:#fff;
+padding:5px 15px;
+margin:0px 5px;
+    border-radius: 4px;
+}
+
+#otp_send_btn
+{
+    background: rgb(31, 186, 214);
+	color:#fff;
+	padding:12px 10px;
+	    border-radius: 4px;
+}
+
+#otpNumErr .error
+{
+background:#C51A21;
+color:#fff;
+}
+
+.profile-image #fileUpload
+{
+width:auto;
+}
+
+#change_mobile_number .col-lg-7
+{
+width:55% !important;
+}
+
+.loadGif {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../../images/indicator.gif) center no-repeat;
+}
+
+
+.em-confirm-container {
+    display: inline-block;
+    margin-top: 0;
+    text-align: center;
+    width: 100%;
+}
+.em-confirm-container input.blue-btn{
+	margin-top:15px;
+}

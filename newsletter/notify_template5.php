@@ -1,0 +1,2 @@
+<?php $message .= 'Welcome to the updated Moovn app. Please familiarize yourself with the updated look and feel. You can access your account from your device or the web at https://get.moovn.com/driver/login
+Please make sure all your information is correct and filled out completely such as your bank account information, photo, car and category. Thank you for being a Moovn partner!';  ?>

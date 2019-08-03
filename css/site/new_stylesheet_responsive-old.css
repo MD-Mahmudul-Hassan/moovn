@@ -1,0 +1,442 @@
+@media only screen and (min-width:320px) and (max-width:567px)
+{
+.login-signup
+{
+float:none;
+width:100%;
+margin:0px auto;
+display:block;
+}
+.login-signup ul
+{
+/*float:none;*/
+}
+.navbar-default .brand
+{
+    float: none;
+    text-align: center;
+    margin-top: 10px;
+	display:inline;
+}
+.navbar-default .brand img
+{
+    width: 50%;
+    margin: 10px auto;
+}
+.sleekslider .slide
+{
+background-size:cover !important;
+}
+.navbar .nav>li
+{
+float:none;
+}
+.my-nav .nav
+{
+float:none;
+margin:0px;
+}
+.my-nav .navbar-header
+{
+padding-top:20px;
+}
+.my-nav .navbar-toggle
+{
+background:#2CA1DA !important;
+}
+.my-nav .navbar-toggle .icon-bar
+{
+background:#fff !important;
+}
+.my-nav .navbar-collapse
+{
+border:0px !important;
+}
+
+.dectar-mobile-app-part-1
+{
+width:100%;
+margin-top:130px;
+}
+.dectar-mobile-app-part-1 ul li
+{
+margin-top:20px;
+}
+.first-section-bg
+{
+height:auto;
+}
+.dectar-mobile-app-part-2
+{
+width:100%;
+margin-top:20px;
+}
+.dectar-mobile-app-part-3
+{
+margin-top:20px;
+width:100%;
+}
+.dectar-mobile-app-part-3 ul li
+{
+margin-top:20px;
+}
+.our-app-top
+{
+margin-top:40px;
+}
+.dectar-mobile-app-part-3 .app-des p
+{
+color:#bea67b;
+}
+
+.second-section-bg
+{
+margin-top:100px;
+}
+.why-dectar-right
+{
+float:none;
+text-align:center;
+width:100%;
+}
+.why-dectar-left
+{
+width:100%;
+}
+.third-section-bg ul
+{
+padding:0px 20px;
+margin:0px;
+}
+.third-section-bg ul li
+{
+padding:0px 15px;
+margin-top:20px;
+}
+.third-section-bg ul li .app-des
+{
+width:100%;
+}
+.first-move, .second-move, .third-move
+{
+margin:0px;
+width:100% !important;
+}
+.home-blog-inner-left
+{
+width:100%;
+}
+.home-blog-inner-right
+{
+width:100%;
+float:none;
+}
+.forth-section-bg
+{
+height:auto;
+}
+.home-blog-desc
+{
+width:100%;
+}
+.home-blog-inner-right li
+{
+margin-bottom:20px;
+}
+.footer-bg
+{
+height:auto;
+}
+.footer-menus h1
+{
+text-align:center;
+}
+.footer-menus ul li
+{
+text-align:center;
+}
+
+.lang-select .dropdown-menu
+{
+min-width:140px;
+}
+.home-submit
+{
+float:none;
+}
+.app-ftr-menu
+{
+width:100%;
+padding:0px 25px;
+}
+.app-ftr-menu p
+{
+text-align:center;
+}
+.footer-rider-bottom
+{
+float:none !important;
+}
+.footer-rider-bottom  p
+{
+text-align:center;
+}
+.footer-logo
+{
+margin-top:20px;
+margin:0px auto;
+text-align:center;
+}
+.footer-menus h1
+{
+margin:10px 0px;
+}
+.home-blog-inner-left
+{
+text-align:center;
+}
+.android-rider
+{
+text-align:center;
+}
+.android-rider h5
+{
+background:none;
+padding-right:0px;
+}
+a.brand
+{
+padding:0px !important;
+}
+.vehicle-inner
+{
+width:100% !important;
+margin:10px 0px !important;
+}
+.sign_up_base .mob_resend_otp
+{
+width:100% !important;
+margin-top:10px;
+}
+}
+
+@media only screen and (min-width:568px) and (max-width:767px)
+{
+.navbar-default .brand
+{
+    float: none;
+    text-align: center;
+    margin-top: 10px;
+	display:inline;
+}
+.navbar-default .brand img
+{
+    width: 50%;
+    margin: 10px auto;
+}
+.my-nav .navbar-header
+{
+padding-top:20px;
+}
+.navbar .nav>li
+{
+float:none;
+}
+.my-nav .nav
+{
+float:none;
+margin:0px;
+}
+.my-nav .navbar-toggle
+{
+background:#2CA1DA !important;
+}
+.my-nav .navbar-toggle .icon-bar
+{
+background:#fff !important;
+}
+.my-nav .navbar-collapse
+{
+border:0px !important;
+}
+
+.dectar-mobile-app-part-1
+{
+width:100%;
+margin-top:130px;
+}
+.dectar-mobile-app-part-1 ul li
+{
+margin-top:20px;
+}
+.first-section-bg
+{
+height:auto;
+}
+.dectar-mobile-app-part-2
+{
+width:100%;
+margin-top:20px;
+}
+.dectar-mobile-app-part-3
+{
+margin-top:20px;
+width:100%;
+}
+.dectar-mobile-app-part-3 ul li
+{
+margin-top:20px;
+}
+.our-app-top
+{
+margin-top:40px;
+}
+.dectar-mobile-app-part-3 .app-des p
+{
+color:#bea67b;
+}
+
+.second-section-bg
+{
+margin-top:100px;
+}
+.why-dectar-right
+{
+float:none;
+text-align:center;
+width:100%;
+}
+.why-dectar-left
+{
+width:100%;
+}
+.third-section-bg ul
+{
+padding:0px 20px;
+margin:0px;
+}
+.third-section-bg ul li
+{
+padding:0px 15px;
+margin-top:20px;
+}
+.third-section-bg ul li .app-des
+{
+width:100%;
+}
+.first-move, .second-move, .third-move
+{
+margin:0px;
+width:100% !important;
+}
+.home-blog-inner-left
+{
+width:100%;
+}
+.home-blog-inner-right
+{
+width:100%;
+float:none;
+}
+.forth-section-bg
+{
+height:auto;
+}
+.home-blog-desc
+{
+width:100%;
+}
+.home-blog-inner-right li
+{
+margin-bottom:20px;
+}
+.footer-bg
+{
+height:auto;
+}
+
+.lang-select .dropdown-menu
+{
+min-width:140px;
+}
+.home-blog-inner-left
+{
+text-align:center;
+}
+.footer-bg .new_footer_added_class
+{
+width:50% !important;
+float:left !important;
+}
+a.brand
+{
+padding:0px !important;
+}
+.sign_up2_center .col-lg-4
+{
+text-align:center;
+}
+.vehicle-inner
+{
+width:100% !important;
+margin:10px 0px !important;
+}
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px)
+{
+.navbar-default .brand img
+{
+    width: 50%;
+    margin: 10px auto;
+}
+.my-nav .nav li a
+{
+padding:8px 15px;
+}
+.my-nav .nav
+{
+margin:0px;
+}
+.first-section-bg
+{
+height:auto;
+}
+.second-section-bg
+{
+margin-top:60px;
+}
+.third-section-bg ul
+{
+margin:0px;
+padding:0px 20px;
+}
+.first-move
+{
+margin-left:15% !important;
+}
+.second-move
+{
+margin-left:30% !important;
+}
+.third-move
+{
+margin-left:45% !important;
+}
+.footer-bg
+{
+height:auto;
+}
+.footer-bg .new_footer_added_class
+{
+float:left !important;
+}
+.sign_up2_center .col-lg-4
+{
+text-align:center;
+}
+.vehicle-inner
+{
+margin:10px 0px !important;
+}
+}

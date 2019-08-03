@@ -1,0 +1,1201 @@
+@media only screen and (min-width:320px) and (max-width:567px)
+
+{
+
+.login-signup
+
+{
+
+float:none;
+
+width:100%;
+
+margin:0px auto;
+
+display:block;
+
+}
+
+.login-signup ul
+
+{
+
+/*float:none;*/
+
+}
+
+.navbar-default .brand
+
+{
+
+    float: none;
+
+    text-align: center;
+
+    margin-top: 10px;
+
+	display:inline;
+
+}
+
+.navbar-default .brand img
+
+{
+
+    width: 50%;
+
+    margin: 10px auto;
+
+}
+
+.sleekslider .slide
+
+{
+
+background-size:cover !important;
+
+}
+
+.navbar .nav>li
+
+{
+
+float:none;
+
+}
+
+.my-nav .nav
+
+{
+
+float:none;
+
+margin:0px;
+
+}
+
+.my-nav .navbar-header
+
+{
+
+padding-top:20px;
+
+}
+
+.my-nav .navbar-toggle
+
+{
+
+background:#2CA1DA !important;
+
+}
+
+.my-nav .navbar-toggle .icon-bar
+
+{
+
+background:#fff !important;
+
+}
+
+.my-nav .navbar-collapse
+
+{
+
+border:0px !important;
+
+}
+
+
+
+.dectar-mobile-app-part-1
+
+{
+
+width:100%;
+
+margin-top:130px;
+
+}
+
+.dectar-mobile-app-part-1 ul li
+
+{
+
+margin-top:20px;
+
+}
+
+.first-section-bg
+
+{
+
+height:auto;
+
+}
+
+.dectar-mobile-app-part-2
+
+{
+
+width:100%;
+
+margin-top:20px;
+
+}
+
+.dectar-mobile-app-part-3
+
+{
+
+margin-top:20px;
+
+width:100%;
+
+}
+
+.dectar-mobile-app-part-3 ul li
+
+{
+
+margin-top:20px;
+
+}
+
+.our-app-top
+
+{
+
+margin-top:40px;
+
+}
+
+.dectar-mobile-app-part-3 .app-des p
+
+{
+
+color:#bea67b;
+
+}
+
+
+
+.second-section-bg
+
+{
+
+margin-top:100px;
+
+}
+
+.why-dectar-right
+
+{
+
+float:none;
+
+text-align:center;
+
+width:100%;
+
+}
+
+.why-dectar-left
+
+{
+
+width:100%;
+
+}
+
+.third-section-bg ul
+
+{
+
+padding:0px 20px;
+
+margin:0px;
+
+}
+
+.third-section-bg ul li
+
+{
+
+padding:0px 15px;
+
+margin-top:20px;
+
+}
+
+.third-section-bg ul li .app-des
+
+{
+
+width:100%;
+
+}
+
+.first-move, .second-move, .third-move
+
+{
+
+margin:0px;
+
+width:100% !important;
+
+}
+
+.home-blog-inner-left
+
+{
+
+width:100%;
+
+}
+
+.home-blog-inner-right
+
+{
+
+width:100%;
+
+float:none;
+
+}
+
+.forth-section-bg
+
+{
+
+height:auto;
+
+}
+
+.home-blog-desc
+
+{
+
+width:100%;
+
+}
+
+.home-blog-inner-right li
+
+{
+
+margin-bottom:20px;
+
+}
+
+.footer-bg
+
+{
+
+height:auto;
+
+}
+
+.footer-menus h1
+
+{
+
+text-align:center;
+
+}
+
+.footer-menus ul li
+
+{
+
+text-align:center;
+
+}
+
+
+
+.lang-select .dropdown-menu
+
+{
+
+min-width:140px;
+
+}
+
+.home-submit
+
+{
+
+float:none;
+
+}
+
+.app-ftr-menu
+
+{
+
+width:100%;
+
+padding:0px 25px;
+
+}
+
+.app-ftr-menu p
+
+{
+
+text-align:center;
+
+}
+
+.footer-rider-bottom
+
+{
+
+float:none !important;
+
+}
+
+.footer-rider-bottom  p
+
+{
+
+text-align:center;
+
+}
+
+.footer-logo
+
+{
+
+margin-top:20px;
+
+margin:0px auto;
+
+text-align:center;
+
+}
+
+.footer-menus h1
+
+{
+
+margin:10px 0px;
+
+}
+
+.home-blog-inner-left
+
+{
+
+text-align:center;
+
+}
+
+.android-rider
+
+{
+
+text-align:center;
+
+}
+
+.android-rider h5
+
+{
+
+background:none;
+
+padding-right:0px;
+
+}
+
+a.brand
+
+{
+
+padding:0px !important;
+
+}
+
+.vehicle-inner
+
+{
+
+width:100% !important;
+
+margin:10px 0px !important;
+
+}
+
+.sign_up_base .mob_resend_otp
+
+{
+
+width:100% !important;
+
+margin-top:10px;
+
+}
+
+}
+
+
+@media only screen and (max-width:568px)
+
+{
+
+.navbar .brand{
+	margin-left: 0;
+}
+.navbar-default .brand img{
+	width: 60%;
+}
+.nav.navbar-nav{
+	background:#fff;
+}
+.login-signup ul {
+    /*display: inline-block;*/
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+.login-signup li {
+    display: inline-block;
+    float: none;
+}
+.sleekslider .slide {
+    background-size: 100% 100% !important;
+    height: 210px !important;
+}
+.sleekslider{
+	height: 210px !important;
+}
+.banner-menu{
+	position: relative;
+}
+.my-nav .navbar-toggle{
+	width: 92%;
+}
+.slide-content h1{
+	display:none;
+}
+.login-signup{	
+	width: 100%;
+}
+.navbar-default .brand{
+	width: 100%;
+	display: inline-block !important;
+}
+
+
+
+}
+
+
+
+@media only screen and (min-width:568px) and (max-width:767px)
+
+{
+
+.navbar-default .brand
+
+{
+
+    float: none;
+
+    text-align: center;
+
+    margin-top: 10px;
+
+	display:inline;
+
+}
+
+.navbar-default .brand img
+
+{
+
+    width: 50%;
+
+    margin: 10px auto;
+
+}
+
+.my-nav .navbar-header
+
+{
+
+padding-top:20px;
+
+}
+
+.navbar .nav>li
+
+{
+
+float:none;
+
+}
+
+.my-nav .nav
+
+{
+
+float:none;
+
+margin:0px;
+
+}
+
+.my-nav .navbar-toggle
+
+{
+
+background:#2CA1DA !important;
+
+}
+
+.my-nav .navbar-toggle .icon-bar
+
+{
+
+background:#fff !important;
+
+}
+
+.my-nav .navbar-collapse
+
+{
+
+border:0px !important;
+
+}
+
+
+
+.dectar-mobile-app-part-1
+
+{
+
+width:100%;
+
+margin-top:130px;
+
+}
+
+.dectar-mobile-app-part-1 ul li
+
+{
+
+margin-top:20px;
+
+}
+
+.first-section-bg
+
+{
+
+height:auto;
+
+}
+
+.dectar-mobile-app-part-2
+
+{
+
+width:100%;
+
+margin-top:20px;
+
+}
+
+.dectar-mobile-app-part-3
+
+{
+
+margin-top:20px;
+
+width:100%;
+
+}
+
+.dectar-mobile-app-part-3 ul li
+
+{
+
+margin-top:20px;
+
+}
+
+.our-app-top
+
+{
+
+margin-top:40px;
+
+}
+
+.dectar-mobile-app-part-3 .app-des p
+
+{
+
+color:#bea67b;
+
+}
+
+
+
+.second-section-bg
+
+{
+
+margin-top:100px;
+
+}
+
+.why-dectar-right
+
+{
+
+float:none;
+
+text-align:center;
+
+width:100%;
+
+}
+
+.why-dectar-left
+
+{
+
+width:100%;
+
+}
+
+.third-section-bg ul
+
+{
+
+padding:0px 20px;
+
+margin:0px;
+
+}
+
+.third-section-bg ul li
+
+{
+
+padding:0px 15px;
+
+margin-top:20px;
+
+}
+
+.third-section-bg ul li .app-des
+
+{
+
+width:100%;
+
+}
+
+.first-move, .second-move, .third-move
+
+{
+
+margin:0px;
+
+width:100% !important;
+
+}
+
+.home-blog-inner-left
+
+{
+
+width:100%;
+
+}
+
+.home-blog-inner-right
+
+{
+
+width:100%;
+
+float:none;
+
+}
+
+.forth-section-bg
+
+{
+
+height:auto;
+
+}
+
+.home-blog-desc
+
+{
+
+width:100%;
+
+}
+
+.home-blog-inner-right li
+
+{
+
+margin-bottom:20px;
+
+}
+
+.footer-bg
+
+{
+
+height:auto;
+
+}
+
+
+
+.lang-select .dropdown-menu
+
+{
+
+min-width:140px;
+
+}
+
+.home-blog-inner-left
+
+{
+
+text-align:center;
+
+}
+
+.footer-bg .new_footer_added_class
+
+{
+
+width:50% !important;
+
+float:left !important;
+
+}
+
+a.brand
+
+{
+
+padding:0px !important;
+
+}
+
+.sign_up2_center .col-lg-4
+
+{
+
+text-align:center;
+
+}
+
+.vehicle-inner
+
+{
+
+width:100% !important;
+
+margin:10px 0px !important;
+
+}
+
+}
+
+
+
+@media only screen and (max-width:767px)
+
+{
+
+.navbar .brand{
+	margin-left: 0;
+}
+.nav.navbar-nav{
+	background:#fff;
+}
+.login-signup ul {
+    /*display: inline-block;*/
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+.login-signup li {
+    display: inline-block;
+    float: none;
+}
+.banner-menu{
+	position: relative;
+}
+.my-nav .navbar-toggle{
+	width: 92%;
+}
+.slide-content h1{
+	display:none;
+}
+.login-signup{	
+	width: 100%;
+	text-align: center;
+}
+.navbar-default .brand{
+	width: 100%;
+	display: inline-block !important;
+}
+.sleekslider .slide {
+    background-size: 100% 100% !important;
+    height: 310px !important;
+}
+.sleekslider{
+	height: 310px !important;
+}
+
+.my-nav .nav li a {
+    color: #777;
+}
+
+.login-signup li a{
+	color: #07b5e6;
+}
+
+
+/*-------------------New-------------*/
+
+.lang-select {
+    float: none;
+}
+
+
+}
+
+
+
+@media only screen and (min-width:768px) and (max-width:1024px)
+
+{
+
+.navbar-default .brand img
+
+{
+
+    width: 50%;
+
+    margin: 10px auto;
+
+}
+
+.my-nav .nav li a
+
+{
+
+padding:8px 15px;
+
+}
+
+.my-nav .nav
+
+{
+
+margin:0px;
+
+}
+
+.first-section-bg
+
+{
+
+height:auto;
+
+}
+
+.second-section-bg
+
+{
+
+margin-top:60px;
+
+}
+
+.third-section-bg ul
+
+{
+
+margin:0px;
+
+padding:0px 20px;
+
+}
+
+.first-move
+
+{
+
+margin-left:15% !important;
+
+}
+
+.second-move
+
+{
+
+margin-left:30% !important;
+
+}
+
+.third-move
+
+{
+
+margin-left:45% !important;
+
+}
+
+.footer-bg
+
+{
+
+height:auto;
+
+}
+
+.footer-bg .new_footer_added_class
+
+{
+
+float:left !important;
+
+}
+
+.sign_up2_center .col-lg-4
+
+{
+
+text-align:center;
+
+}
+
+.vehicle-inner
+
+{
+
+margin:10px 0px !important;
+
+}
+
+.input-group-addon .form-control{
+	padding: 6px 7px !important;
+}
+#em_mobile {
+    margin-left: 15px;
+    width: 95% !important;
+}
+.profile-image #fileUpload {
+    width: 100%;
+}
+
+
+}
+
+/**-----------------Design By J -------------------**/
+@media only screen and (min-width:1024px) and (max-width:1200px){
+div#footerlast {
+    padding-bottom: 15px;
+}
+.login-signup ul{
+        padding-right: 10px;
+}
+.navbar-collapse {
+    margin-top: 25px;
+}
+.recharge-money button{
+    margin-top: 0 !important;
+}
+form#wallet_recharge_form {
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+}
+form#wallet_recharge_form input {
+    height: 36px !important;
+}
+} 
+
+
+@media only screen and (min-width:768px) and (max-width:1023px){
+.sleekslider{
+        height: 500px !important;
+}
+.sleekslider .slide{
+background-size: 100% 100% !important;    
+    height: 100% !important;
+}
+.login-signup ul{
+        padding-right: 10px;
+}
+.navbar-header a img {
+    width: 100% !important;
+}
+.navbar-header {
+    width: 25%;
+    float: left;
+}
+.navbar-collapse {
+    width: 74%;
+    float: left;
+    margin-top: 25px;
+}
+.way_form_new .col-md-6 {
+    width: 50%;
+    float: left;
+}
+.rider_profile-tab>li > a {
+    font-size: 10.9px !important;
+}
+.rider_profile-tab > li:last-child > a {
+    margin-right: 0;
+}
+}
+
+@media only screen and (max-width: 767px){
+div#footerlast {
+    padding-bottom: 15px;
+}
+.cms_base_div p{
+        padding: 5px 10px;
+}
+.sign_up2_center p{
+        width: 100%;
+}
+.pickup_address_form {
+    width: 100% !important;
+    float: left;
+}
+.way_form_new .col-md-6 {
+margin-bottom: 10px;
+}
+.way_form_new {
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+.destination_search_btn {
+    width: auto;
+    display: inline-block;
+    float: none;
+}
+.rider_profile-tab>li > a {
+    font-size: 11.4px !important;
+}
+.rider_profile-tab > li:last-child > a {
+    margin-right: 0;
+}
+.form-group,.emergency-contact,.rider-pickup-detail,form#em_contact_form,.profile_rider_right,.profile_rider{
+    clear: both;
+}
+.my-nav .navbar-header{
+    width: 100% !important;
+    margin: 0 !important;
+}
+.my-nav .navbar-toggle {
+    width: 100% !important;
+    margin: 0 !important;
+}
+div#bs-example-navbar-collapse-1 {
+    width: 100% !important;
+    float: left !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.cms-container {
+    text-align: center;
+}
+}
+
+@media only screen and (min-width:320px) and (max-width:567px){
+.sleekslider {
+    height: 250px !important;
+}
+.sleekslider .slide {
+    background-size: 100% 100% !important;
+    height: 100% !important;
+}
+.driver-app-new-left,.driver-app-new-right,.rider-app-new-left,.rider-app-new-right{
+    width: 100% !important;
+}
+.cabily-app-new-design li{
+        word-wrap: break-word;
+}
+.footer-rider-bottom {
+    float: left !important;
+    width: 100%;
+    margin-bottom: 10px;
+        padding: 0 !important;
+}
+.footer-rider-bottom ul {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.footer-rider-bottom ul li {
+    float: none;
+    display: inline-block;
+}
+.footer-rider-bottom ul li a {
+    display: inline-block;
+}
+.profile-image #fileUpload {
+    width: 100%;
+}
+.rider_profile-tab>li > a {
+        font-size: 10px !important;
+    min-height: 52px !important;
+}
+.ride-place {
+    text-align: left;
+    margin-top: 10px;
+}
+.rider_profile-tab {
+    overflow: hidden;
+}
+.car-std ul {
+    width: 100%;
+    float: left;
+}
+.car-std ul li h5,.car-std ul li p{
+        padding: 10px 10px !important;
+}
+.car-lcoation span {
+    margin-left: 0 !important;
+        text-align: left;
+            padding-left: 12px;
+}
+.car-lcoation,.car-type{
+    background-position: left 0;
+}
+#em_mobile{
+ margin-left: 0 !important;
+ border-left: 0;
+}
+span.input-group-addon.element-group {
+    width: 28% !important;
+}
+span.input-group-addon.element-group select#em_mobile_code {
+    padding: 6px 3px 6px 5px;
+}
+}
+/**-----------------Design By J -------------------**/

@@ -1,0 +1,20 @@
+.rider_profile-tab>li > a{
+	font-size:13px;
+}
+.cms-container{
+	margin-bottom:30px;
+}
+.learn-more{
+	opacity: 1;
+}
+.profile-sign-up a img{
+	width: 40%;
+	height: 50px;
+}
+.profile-slide-menu ul li a{
+	font-size: 13px;
+	padding: 10px 8px;
+}
+.sign_up2_center h1{
+	    font: 26px 'Roboto-Regular';
+}

@@ -1,0 +1,264 @@
+/** Responsive CSS **/
+
+/* ============================= 1024px ====================== */
+@media only screen and (max-width:1024px)
+{
+	body
+	{
+		overflow-x:hidden;
+	}
+	.agency-part-1, .sub-app, .landing-page-tabs, .services-box
+	{
+		width:100%;
+	}
+	.footer-menus ul li input[type="text"] 
+	{
+		width: 100%;
+	}
+	.home-submit
+	{
+		width:100% !important;
+	}
+	.app-ftr-menu 
+	{
+		padding-left: 0px;
+	}
+	.blue-bg-col-left 
+	{
+		width: 85%;
+	}
+}
+
+@media only screen and (max-width:768px)
+{
+	.dectar-features-imag
+	{
+		border-right:0;
+	}
+	.dectar-features-content
+	{
+		padding-left:0;
+	}
+	.orange-bg-middel
+	{
+		display:none;
+	}
+	.services h1
+	{
+		padding:0;
+	}
+	.footer-bg
+	{
+		height:auto;
+	}
+	.orange-bg
+	{
+		background: #DE5749 url("../../images/light-img-car-bg.png") no-repeat scroll right bottom;
+	}
+	.footer-logo, .footer-bg, .last-side-menu
+	{
+		text-align:center;
+	}
+	.footer-logo
+	{
+		margin-top: 30px;
+	}
+}
+
+@media only screen and (max-width:736px)
+{
+	.dectar-features-content h1
+	{
+		text-align:center;
+	}
+	.dectar-features-content ul li
+	{
+		margin-top:20px;
+	}
+	.sub-app-img 
+	{
+		width: 60px;
+		float: left;
+		margin-top: 0;
+	}
+	.sub-app-desc
+	{
+		width: 87%;
+		float: left;
+	}
+	.landing-page-tabs-top-left 
+	{
+		width: 60px;
+		float: left;
+		margin-top: 5px;
+	}
+	.blue-bg-col-left 
+	{
+		width: 90%;
+	}
+	.footer-menus
+	{
+		width: 300px;
+		margin: 0 auto;
+	}
+	.last-side-menu
+	{
+		margin-top:0;
+	}
+	.buy-btn
+	{
+		width:100%;
+		float:none;
+		display:inline-block;
+		text-align:center;
+	}
+	.buy-btn a.buy-it-now
+	{
+		width: 200px !important;
+		display: inline-block;
+		float: none;
+	}
+	.brand-icons
+	{
+		text-align:center;
+	}
+}
+
+
+@media only screen and (max-width:667px)
+{
+	.blue-bg-col-left 
+	{
+		width: 88%;
+	}
+	.footer-menus h1
+	{
+		margin: 30px 0px 10px;
+	}
+	.inner-forth-section-left ul li
+	{
+		width:100%;
+	}
+	.inner-forth-section-left ul li
+	{
+		padding: 9px 0 9px 40px;
+	}
+}
+
+@media only screen and (max-width:600px)
+{
+	.blue-bg-col-left 
+	{
+		width: 85%;
+	}
+	.agency-part h1
+	{
+		line-height:25px;
+	}
+}
+
+@media only screen and (max-width:414px)
+{
+	.sub-app
+	{
+		text-align: center;
+		display: inline-block;
+	}
+	.sub-app-img
+	{
+		float: none;
+		margin-top: 0px;
+		display: inline-block;
+		width: 100%;
+	}
+	.sub-app-desc
+	{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.sub-app-desc h1, .services h1, .blue-bg-col-left h1, .blue-bg-col-left p
+	{
+		text-align:center;
+	}
+	.blue-bg-col-left 
+	{
+		width: 100%;
+		text-align: center;
+		padding: 0;
+	}
+	.blue-bg-col-1, .blue-bg-col-2
+	{
+		float:none;
+		display:inline-block;
+		text-align:center;
+	}
+	.blue-bg-col-right
+	{
+		float:none;
+		display:inline-block;
+		text-align:center;
+	}
+	.blue-bg-col-2 .blue-bg-col-right
+	{
+		float: none;
+		text-align: center;
+	}
+	.blue-bg-col-2 .blue-bg-col-left h1, .blue-bg-col-2 .blue-bg-col-left p , .landing-page-tabs-top-right h1
+	{
+		text-align: center;
+	}
+	.blue-bg-col-2 .blue-bg-col-left 
+	{
+		padding: 0;
+	}
+	.landing-page-tabs-top 
+	{
+		width: 100%;
+		float: none;
+		text-align: center;
+		display: inline-block;
+	}
+	.landing-page-tabs-top-left 
+	{
+		width: auto;
+		float: none;
+		margin-top: 5px;
+		display: inline-block;
+		text-align: center;
+	}
+	.landing-page-tabs-top-right 
+	{
+		width: 100%;
+		float: none;
+		display: inline-block;
+		text-align: center;
+	}
+	.orange-bg-right h1, .blue-bg h1
+	{
+		font-size:20px;
+		line-height:25px;
+	}
+	
+	.dectar-features-content h1
+	{
+		font-size: 20px;
+	}
+	.inner-forth-section-left h2
+	{
+		font-size:16px;
+	}
+	.dector-landing h1
+	{
+		font-size:20px;
+	}
+}
+
+@media only screen and (max-width:374px)
+{
+	.footer-menus 
+	{
+		width: 270px;
+		margin: 0px auto;
+	}
+}

@@ -1,0 +1,51 @@
+#rating-pos {
+float:right;
+position:relative;
+top: 10px;
+
+}
+.ratingstar-0 {
+float:none;
+width:740px;
+height:27px; 
+background:url(../images/review-stars.png) no-repeat 0px -122px;
+margin-top: 5px;
+}
+
+.ratingstar-1 {
+float:none;
+width:740px;
+height:27px; 
+background:url(../images/review-stars.png) no-repeat 0px -94px;
+margin-top: 5px;
+}
+
+.ratingstar-2 {
+float:none;
+width:740px;
+height:27px; 
+background:url(../images/review-stars.png) no-repeat 0px -70px;
+margin-bottom: 18px;
+}
+.ratingstar-3 {
+float:none;
+width:740px;
+height:27px; 
+background:url(../images/review-stars.png) no-repeat 0px -47px;
+margin-top: 5px;
+}
+
+.ratingstar-4 {
+float:none;
+width:740px;
+height:27px; 
+background:url(../images/review-stars.png) no-repeat 0px -22px;
+margin-top: 5px;
+}
+.ratingstar-5 {
+float:none;
+width:740px;
+height:27px; 
+background:url(../images/review-stars.png) no-repeat 0px 0px;
+margin-top: 5px;
+}

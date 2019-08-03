@@ -1,0 +1,97 @@
+Ejabberd.yml file configuration:
+
+For single host configuration:
+
+1. Ensure you have host service name under hosts option:
+
+			hosts:
+			  - "YOUR_SERVICE_NAME"
+
+2.Change auth_method from internal to odbc:
+			auth_method: internal to auth_method: odbc
+
+3.Under database setup enter following details:
+			odbc_type: mysql
+			odbc_server: "YOUR_DATABASE_DOMAIN_OR_IP"
+			odbc_database: "YOUR_DATABASE_NAME"
+			odbc_username: "YOUR_DATABASE_USERNAME"
+			odbc_password: "YOUR_DATABASE_PASSWORD"			
+
+4. Under Access Control Lists:
+			acl:
+			  YOUR_ADMIN_USERNAME:
+			    user:
+			       - "YOUR_ADMIN_USERNAME": "YOUR_SERVICE_NAME"
+
+
+5. Under Modules ensure you have enabled following modules:
+
+			  	mod_announce: # recommends mod_adhoc
+				    access: announce
+				    db_type: odbc
+			    mod_last_odbc: []
+		    	mod_roster_odbc: []
+			    mod_mam:
+				    db_type: odbc
+				    default: always
+				    cache_size: integer
+				    cache_lifetime: seconds
+
+
+
+For Multiple Host Configuration:
+
+1. Ensure you have host service name under hosts option:
+
+			hosts:
+			  - "YOUR_FIRST_SERVICE_NAME"
+			  - "YOUR_NTH_SERVICE_NAME"
+
+2.Change auth_method from internal to odbc:
+			auth_method: internal to auth_method: odbc
+
+3.Under database setup enter following details:
+			host_config:
+				"YOUR_FIRST_SERVICE_NAME":
+					odbc_type: mysql
+					odbc_server: "YOUR_DATABASE_DOMAIN_OR_IP_FOR_FIRST_SERVICE"
+					odbc_database: "YOUR_DATABASE_NAME_FOR_FIRST_SERVICE"
+					odbc_username: "YOUR_DATABASE_USERNAME_FOR_FIRST_SERVICE"
+					odbc_password: "YOUR_DATABASE_PASSWORD_FOR_FIRST_SERVICE"	
+				"YOUR_NTH_SERVICE_NAME":
+					odbc_type: mysql
+					odbc_server: "YOUR_DATABASE_DOMAIN_OR_IP_FOR_NTH_SERVICE"
+					odbc_database: "YOUR_DATABASE_NAME_FOR_NTH_SERVICE"
+					odbc_username: "YOUR_DATABASE_USERNAME_FOR_NTH_SERVICE"
+					odbc_password: "YOUR_DATABASE_PASSWORD_FOR_NTH_SERVICE"							
+
+4. Under Access Control Lists:
+			acl:
+			  YOUR_ADMIN_USERNAME:
+			    user:
+			       - "YOUR_ADMIN_USERNAME": "YOUR_SERVICE_NAME"
+			host_config:
+			  "YOUR_FIRST_SERVICE_NAME":
+			    acl:
+			      YOUR_FIRST_ADMIN_USERNAME:
+			        user:
+			          - "YOUR_FIRST_ADMIN_USERNAME": "YOUR_FIRST_SERVICE_NAME"
+			  "YOUR_NTH_SERVICE_NAME":
+			    acl:
+			      YOUR_NTH_ADMIN_USERNAME:
+			        user:
+			          - "YOUR_NTH_ADMIN_USERNAME": "YOUR_NTH_ADMIN_USERNAME"			       
+
+
+5. Under Modules ensure you have enabled following modules:
+
+			  	mod_announce: # recommends mod_adhoc
+				    access: announce
+				    db_type: odbc
+			    mod_last_odbc: []
+		    	mod_roster_odbc: []
+			    mod_mam:
+				    db_type: odbc
+				    default: never		## set it as always if you want all the messages in mysql db
+				    cache_size: integer
+				    cache_lifetime: seconds

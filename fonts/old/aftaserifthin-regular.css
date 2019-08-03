@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'AftaserifRegular';
+    src: url('aftaserifthin-regular.eot');
+    src: url('aftaserifthin-regular.eot') format('embedded-opentype'),
+         url('aftaserifthin-regular.woff2') format('woff2'),
+         url('aftaserifthin-regular.woff') format('woff'),
+         url('aftaserifthin-regular.ttf') format('truetype'),
+         url('aftaserifthin-regular.svg#AftaserifRegular') format('svg');
+}
